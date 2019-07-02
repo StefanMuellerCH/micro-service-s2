@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.52.11.56:5000/my-project-1470602713869/micro-service-s2
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 
 # define environment variables here as a map of key: value
